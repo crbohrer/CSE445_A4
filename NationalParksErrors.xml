@@ -47,7 +47,8 @@
             <City>Springdale</City>
             <State>UT</State>
             <Zip>84767</Zip>
-        </NationalPark>
+        </Address>
+    </NationalPark>
 
     <NationalPark Rating="4.7">
         <Name>Acadia</Name>
