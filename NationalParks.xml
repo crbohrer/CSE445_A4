@@ -135,4 +135,16 @@
         </Address>
     </NationalPark>
 
+    <NationalPark>
+        <Name>Badlands</Name>
+        <Phone>605-433-5361</Phone>
+        <Address NearestAirport="Rapid City Regional">
+            <Number>25216</Number>
+            <Street>Ben Reifel Road</Street>
+            <City>Interior</City>
+            <State>SD</State>
+            <Zip>57750</Zip>
+        </Address>
+    </NationalPark>
+
 </NationalParks>
