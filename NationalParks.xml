@@ -50,18 +50,6 @@
         </Address>
     </NationalPark>
 
-    <NationalPark Rating="4.7">
-        <Name>Acadia</Name>
-        <Phone>207-288-3338</Phone>
-        <Address NearestAirport="Bangor International">
-            <Number>25</Number>
-            <Street>Visitor Center Rd</Street>
-            <City>Bar Harbor</City>
-            <State>ME</State>
-            <Zip>04609</Zip>
-        </Address>
-    </NationalPark>
-
     <NationalPark>
         <Name>Glacier</Name>
         <Phone>406-888-7800</Phone>
