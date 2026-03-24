@@ -49,21 +49,9 @@
             <Zip>84767</Zip>
         </NationalPark>
 
-    <NationalPark Rating="4.7">
-        <Name>Acadia</Name>
-        <Name>Acadia Alternate Name</Name>
-        <Phone>207-288-3338</Phone>
-        <Address NearestAirport="Bangor International">
-            <Number>25</Number>
-            <Street>Visitor Center Rd</Street>
-            <City>Bar Harbor</City>
-            <State>ME</State>
-            <Zip>04609</Zip>
-        </Address>
-    </NationalPark>
-
     <NationalPark>
         <Name>Glacier</Name>
+        <Name>Glacier Alternate Name</Name>
         <Phone>406-888-7800</Phone>
         <Address NearestAirport="Glacier Park International">
             <Number>64</Number>
