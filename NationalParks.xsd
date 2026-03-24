@@ -13,11 +13,11 @@
 
   <xsd:complexType name="NationalParkType">
     <xsd:sequence>
-      <xsd:element name="Name" type="xsd:string" />
+      <xsd:element name="Name" type="xsd:int" />
       <xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded" />
       <xsd:element name="Address" type="AddressType" />
     </xsd:sequence>
-    <xsd:attribute name="Rating" type="xsd:string" use="optional" />
+    <xsd:attribute name="Rating" type="xsd:decimal" use="optional" />
   </xsd:complexType>
 
   <xsd:complexType name="AddressType">
