@@ -6,22 +6,22 @@
         <xs:element name="NationalPark" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Name" type="xsd:string" />
-              <xs:element name="Phone" type="xsd:string" maxOccurs="unbounded" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" />
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Number" type="xsd:int" />
-                    <xs:element name="Street" type="xsd:string" />
-                    <xs:element name="City" type="xsd:string" />
-                    <xs:element name="State" type="xsd:string" />
-                    <xs:element name="Zip" type="xsd:string" />
+                    <xs:element name="Number" type="xs:int" />
+                    <xs:element name="Street" type="xs:string" />
+                    <xs:element name="City" type="xs:string" />
+                    <xs:element name="State" type="xs:string" />
+                    <xs:element name="Zip" type="xs:string" />
                   </xs:sequence>
-                  <xs:attribute name="NearestAirport" type="xsd:string" use="required" />
+                  <xs:attribute name="NearestAirport" type="xs:string" use="required" />
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="Rating" type="xsd:decimal" use="optional" />
+            <xs:attribute name="Rating" type="xs:decimal" use="optional" />
           </xs:complexType>
         </xs:element>
       </xs:sequence>
